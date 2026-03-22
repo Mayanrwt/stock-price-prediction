@@ -2,7 +2,7 @@ import yfinance as yf
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
-ticker_symbol = "AAPL"
+ticker_symbol = "Apple.inc"
 
 data = yf.download(ticker_symbol, start="2020-01-01", end="2023-01-01")
 
